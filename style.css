@@ -1,0 +1,19 @@
+#clock {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    text-shadow: 3px 3px magenta;
+}
+
+#heading {
+    font-size: 200px;
+    font-family: cursive;
+    text-align: center;
+    margin: auto;
+    text-shadow: 3px 3px magenta;
+}
+
+
+
