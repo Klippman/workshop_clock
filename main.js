@@ -21,22 +21,25 @@ if(sec < 10){
     
     
 // This sets the hours, minutes, and seconds equal to get clock
+const clockFace = document.getElementById("clock");
     
-document.getElementById("clock").innerHTML= hr + ":" + min + ":" + sec;
+clockFace.innerHTML= hr + ":" + min + ":" + sec;
 
 // Changing message and background color with if functions 
+const clockHeading = document.getElementById("heading");
+
 if (hr <= 10){
-    document.getElementById("heading").innerHTML="Good Morning!"
+    clockHeading.innerHTML="Good Morning!"
     document.body.style.backgroundColor = "green"
     }   
 
 if (hr > 12 && hr < 17){
-    document.getElementById("heading").innerHTML="Lunch Time!"
+    clockHeading.innerHTML="Lunch Time!"
     document.body.style.backgroundColor = "red"
     }
 
 if (hr >= 17){
-    document.getElementById("heading").innerHTML="Good Evening!"
+    clockHeading.innerHTML="Good Evening!"
     document.body.style.backgroundColor = "blue"
 }
 
